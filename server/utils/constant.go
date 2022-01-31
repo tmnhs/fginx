@@ -2,5 +2,5 @@ package utils
 
 const (
 	ConfigEnv  = "GV_CONFIG"
-	ConfigFile = "config.yaml"
+	ConfigFile = "../deployment/server/config-local.yaml"
 )

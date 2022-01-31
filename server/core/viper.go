@@ -20,7 +20,7 @@ func Viper(path ...string) *viper.Viper {
 		flag.Parse()
 		if config == "" { // 优先级: 命令行 > 环境变量 > 默认值
 			if configEnv := os.Getenv(utils.ConfigEnv); configEnv == "" {
-				config = utils.ConfigEnv
+				config = utils.ConfigFile
 				fmt.Printf("您正在使用config的默认值,config的路径为%v\n", utils.ConfigFile)
 			} else {
 				config = configEnv
@@ -33,6 +33,7 @@ func Viper(path ...string) *viper.Viper {
 		config = path[0]
 		fmt.Printf("您正在使用func Viper()传递的值,config的路径为%v\n", config)
 	}
+
 	v := viper.New()
 	v.SetConfigFile(config)
 	v.SetConfigType("yaml")

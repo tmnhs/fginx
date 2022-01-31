@@ -15,7 +15,7 @@ autocode:
   web-table: /view
 #全自动区分电脑与人类的图灵测试
 captcha:
-  key-long: 6
+  key-long: 4
   img-width: 240
   img-height: 80
 #权限认证模块
@@ -43,7 +43,7 @@ db-list:
     type: mysql
     alias-name: "match_sns-读"
     path: 127.0.0.1
-    port: "3306"
+    port: "3307"
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: match_sns
     table-pre: "m_"
@@ -102,11 +102,11 @@ mysql:
   path: 127.0.0.1
   port: "3307"
   config: charset=utf8mb4&parseTime=True&loc=Local
-  db-name: moria_flatform
+  db-name: db1
   username: root
-  password: "root"
-  max-idle-conns: 0
-  max-open-conns: 0
+  password: root
+  max-idle-conns: 100
+  max-open-conns: 100
   log-mode: ""
   log-zap: false
 pgsql:
