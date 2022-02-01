@@ -33,7 +33,7 @@ func (*Qiniu) UploadFile(file *multipart.FileHeader) (string, string, error) {
 	formUploader := storage.NewFormUploader(cfg)
 	ret := storage.PutRet{}
 	putExtra := storage.PutExtra{
-		Params: map[string]string{"x:name": "github logo"},
+		//Params: map[string]string{"x:name": "github logo"},
 	}
 
 	f, openError := file.Open()
@@ -46,7 +46,6 @@ func (*Qiniu) UploadFile(file *multipart.FileHeader) (string, string, error) {
 
 	fileKey := fmt.Sprintf("%d%s", time.Now().Unix(), file.Filename) // 文件名格式 自己可以改 建议保证唯一性
 	putErr := formUploader.Put(context.Background(), &ret, upToken, fileKey, f, file.Size, &putExtra)
-
 	if putErr != nil {
 		global.GV_LOG.Error("function formUploader.Put() Filed", zap.Any("err", putErr.Error()))
 		return "", "", errors.New("function formUploader.Put() Filed, err:" + putErr.Error())

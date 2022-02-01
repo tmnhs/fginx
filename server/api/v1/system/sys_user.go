@@ -3,24 +3,24 @@ package system
 import (
 	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
-	"github.com/gin-gonic/gin"
 	"github.com/flipped-aurora/gin-vue-admin/server/model/system"
 	systemReq "github.com/flipped-aurora/gin-vue-admin/server/model/system/request"
 	systemRes "github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
+	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
 )
 
-func (b *BaseApi)Login(c *gin.Context)  {
+func (b *BaseApi) Login(c *gin.Context) {
 	var req systemReq.Login
-	_=c.ShouldBindJSON(&req)
-	if err:=utils.Verify(req,utils.LoginVerify);err!=nil{
+	_ = c.ShouldBindJSON(&req)
+	if err := utils.Verify(req, utils.LoginVerify); err != nil {
 		response.FailWithMessage(err.Error(), c)
 		return
 	}
-	if store.Verify(req.CaptchaId,req.Captcha,true){
-		u:=&system.SysUser{
+	if store.Verify(req.CaptchaId, req.Captcha, true) {
+		u := &system.SysUser{
 			Username: req.Username,
 			Password: req.Password,
 		}
@@ -30,14 +30,14 @@ func (b *BaseApi)Login(c *gin.Context)  {
 		} else {
 			b.tokenNext(c, *user)
 		}
-	}else {
+	} else {
 		response.FailWithMessage("验证码错误", c)
 	}
 }
 
 // 登录以后签发jwt
 
-func (b *BaseApi)tokenNext(c *gin.Context,user system.SysUser)  {
+func (b *BaseApi) tokenNext(c *gin.Context, user system.SysUser) {
 	j := &utils.JWT{SigningKey: []byte(global.GV_CONFIG.JWT.SigningKey)} // 唯一签名
 	claims := j.CreateClaims(systemReq.BaseClaims{
 		UUID:        user.UUID,
@@ -46,7 +46,7 @@ func (b *BaseApi)tokenNext(c *gin.Context,user system.SysUser)  {
 		UserName:    user.Username,
 		AuthorityId: user.AuthorityId,
 	})
-	token,err:=j.CreateToken(claims)
+	token, err := j.CreateToken(claims)
 	if err != nil {
 		global.GV_LOG.Error("获取token失败!", zap.Error(err))
 		response.FailWithMessage("获取token失败", c)
@@ -61,23 +61,23 @@ func (b *BaseApi)tokenNext(c *gin.Context,user system.SysUser)  {
 		}, "登录成功", c)
 		return
 	}
-	if err,jwtStr:=jwtService.GetRedisJWT(user.Username);err==redis.Nil{
-		if err := jwtService.SetRedisJWT(token,user.Username);err!=nil{
+	if err, jwtStr := jwtService.GetRedisJWT(user.Username); err == redis.Nil {
+		if err := jwtService.SetRedisJWT(token, user.Username); err != nil {
 			global.GV_LOG.Error("设置登录状态失败!", zap.Error(err))
-			response.FailWithMessage("设置登录状态失败",c)
+			response.FailWithMessage("设置登录状态失败", c)
 		}
 		response.OkWithDetailed(systemRes.LoginResponse{
 			User:      user,
 			Token:     token,
 			ExpiresAt: claims.StandardClaims.ExpiresAt * 1000,
-		},"登录成功",c)
-	}else if err!=nil{
+		}, "登录成功", c)
+	} else if err != nil {
 		global.GV_LOG.Error("设置登录状态失败!", zap.Error(err))
 		response.FailWithMessage("设置登录状态失败", c)
-	}else {
+	} else {
 		var blackJWT system.JwtBlacklist
 		blackJWT.Jwt = jwtStr
-		if err:=jwtService.JoinInBlacklist(blackJWT);err!=nil{
+		if err := jwtService.JoinInBlacklist(blackJWT); err != nil {
 			response.FailWithMessage("jwt作废失败", c)
 			return
 		}

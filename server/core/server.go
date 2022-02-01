@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/flipped-aurora/gin-vue-admin/server/initialize"
+	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
 	"go.uber.org/zap"
 	"time"
 )
@@ -13,17 +14,18 @@ type server interface {
 }
 
 func RunWindowsServer() {
+	//fmt.Println(global.GV_CONFIG.System.UseMultipoint )
 	if global.GV_CONFIG.System.UseMultipoint {
 		//初始化redis服务
 		initialize.Redis()
 	}
 	// 从db加载jwt数据
 	if global.GV_DB != nil {
-		//system.LoadAll()
+		system.LoadAll()
 	}
 	Router := initialize.Routers()
 
-	//Router.Static("/form-generator", "./resource/page")
+	Router.Static("/form-generator", "./resource/page")
 	address := fmt.Sprintf(":%d", global.GV_CONFIG.System.Addr)
 	s := initServer(address, Router)
 

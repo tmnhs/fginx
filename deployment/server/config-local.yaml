@@ -127,9 +127,9 @@ redis:
   password: ""
 system:
   env: public
-  addr: 8889
+  addr: 8888
   db-type: mysql
-  oss-type: local   # 控制oss选择走本期还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
+  oss-type: qiniu   # 控制oss选择走本期还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
   use-multipoint: false
   iplimit-count: 15000
   iplimit-time: 3600
@@ -150,12 +150,12 @@ hua-wei-obs:
   secret-key: you-secret-key
 #七牛云对象存储
 qiniu:
-  zone: ZoneHuaDong
-  bucket: ""
-  img-path: ""
+  zone: ZoneHuanan
+  bucket: ginvue
+  img-path: http://qny.tmnhs.top
   use-https: false
-  access-key: "3v1jdAbn2NJ6tOS36ZKvYLDdobjFQjkecYkdKNBr"
-  secret-key: " ZjM5P7RFoLFO6-A-Hf0F6GYlmw-MORAEljeNPw70"
+  access-key: 3v1jdAbn2NJ6tOS36ZKvYLDdobjFQjkecYkdKNBr
+  secret-key: ZjM5P7RFoLFO6-A-Hf0F6GYlmw-MORAEljeNPw70
   use-cdn-domains: false
 #腾讯云对象存储
 tencent-cos:

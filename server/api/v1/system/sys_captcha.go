@@ -1,6 +1,7 @@
 package system
 
 import (
+	"fmt"
 	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/flipped-aurora/gin-vue-admin/server/model/common/response"
 	systemRes "github.com/flipped-aurora/gin-vue-admin/server/model/system/response"
@@ -13,8 +14,7 @@ import (
 // var store = captcha.NewDefaultRedisStore()
 var store = base64Captcha.DefaultMemStore
 
-type BaseApi struct {}
-
+type BaseApi struct{}
 
 // @Tags Base
 // @Summary 生成验证码
@@ -23,20 +23,25 @@ type BaseApi struct {}
 // @Produce application/json
 // @Success 200 {string} string "{"success":true,"data":{},"msg":"验证码获取成功"}"
 // @Router /base/captcha [post]
-func (b *BaseApi) Captcha(c *gin.Context)  {
+func (b *BaseApi) Captcha(c *gin.Context) {
 	// 字符,公式,验证码配置
 	// 生成默认数字的driver
-	driver:=base64Captcha.NewDriverDigit(global.GV_CONFIG.Captcha.ImgHeight,global.GV_CONFIG.Captcha.ImgWidth,global.GV_CONFIG.Captcha.KeyLong,0.7,80)
+	driver := base64Captcha.NewDriverDigit(global.GV_CONFIG.Captcha.ImgHeight, global.GV_CONFIG.Captcha.ImgWidth, global.GV_CONFIG.Captcha.KeyLong, 0.7, 80)
 	// cp := base64Captcha.NewCaptcha(driver, store.UseWithCtx(c))   // v8下使用redis
 	cp := base64Captcha.NewCaptcha(driver, store)
-	if id,b64s,err:=cp.Generate();err!=nil{
-		global.GV_LOG.Error("验证码获取失败！",zap.Error(err))
-		response.FailWithMessage("验证码获取失败",c)
-	}else{
+	fmt.Println(cp.Driver.GenerateIdQuestionAnswer())
+
+	if id, b64s, err := cp.Generate(); err != nil {
+		global.GV_LOG.Error("验证码获取失败！", zap.Error(err))
+		response.FailWithMessage("验证码获取失败", c)
+	} else {
 		response.OkWithDetailed(systemRes.SysCaptchaResponse{
-			CaptchaId: id,
-			PicPath: b64s,
+			CaptchaId:     id,
+			PicPath:       b64s,
 			CaptchaLength: global.GV_CONFIG.Captcha.KeyLong,
-		},"验证码获取成功",c)
+		}, "验证码获取成功", c)
+		//store.Get(id,true)
+		fmt.Println(store.Get(id, false))
 	}
+
 }
