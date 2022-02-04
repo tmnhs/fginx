@@ -10,9 +10,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcae0047-f5e0-4e12-80c0-af82683908a8" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/server/model/gv_db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+    <list default="true" id="fcae0047-f5e0-4e12-80c0-af82683908a8" name="Default Changelist" comment="初始化web工程">
+      <change afterPath="$PROJECT_DIR$/deployment/web/.env.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/web/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/web/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/About.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/Home.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643728757525</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1643942440202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1643942440202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="初始化web工程">
+      <created>1643942511966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643942511966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,9 +188,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化工程" />
-    <MESSAGE value="update" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="update" />
+    <MESSAGE value="初始化web工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化web工程" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -176,10 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="945" y="249" key="#Go_Modules/0.0.1536.824@0.0.1536.824" timestamp="1643276635957" />
-    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643600047284">
+    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643942873163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1643600047284" />
+    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1643942873163" />
     <state x="1040" y="275" width="427" height="279" key="EnvironmentVariablesDialog" timestamp="1643276632210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,10 +254,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1643467257451" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1643728762956">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1643942518645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643728762956" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643942518645" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1643462954181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
