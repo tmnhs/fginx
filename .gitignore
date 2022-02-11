@@ -1,0 +1,13 @@
+.idea
+.vscode
+*/.DS_Store
+static/uploadfile
+main.exe
+temp/
+*/node_modules/
+rm_file/
+*/log/
+!temp
+deployment/server/config.local.yaml
+deployment/web/.env.location
+run.log

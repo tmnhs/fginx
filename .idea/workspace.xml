@@ -10,28 +10,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcae0047-f5e0-4e12-80c0-af82683908a8" name="Default Changelist" comment="初始化web工程">
-      <change afterPath="$PROJECT_DIR$/deployment/web/.env.location" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/web/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/web/.env.test" afterDir="false" />
+    <list default="true" id="fcae0047-f5e0-4e12-80c0-af82683908a8" name="Default Changelist" comment="update web工程">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/About.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/views/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/.env.location" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/.env.location" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/log/server_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/server_info.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +61,19 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="ts.external.directory.path" value="D:\goland\GoLand 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\造轮子\gin-vue" />
       <recent name="C:\Users\admin\Desktop\造轮子\gin-vue\web" />
       <recent name="C:\Users\admin\Desktop\造轮子\gin-vue\server\router\system" />
       <recent name="C:\Users\admin\Desktop\造轮子\gin-vue\server\api\v1\system" />
       <recent name="C:\Users\admin\Desktop\造轮子\gin-vue\server\model\system" />
-      <recent name="C:\Users\admin\Desktop\造轮子\gin-vue\server\model\system\response" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/flipped-aurora/gin-vue-admin/server">
@@ -167,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643942511966</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update web工程">
+      <created>1643953115266</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1643953115266</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +186,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="update" />
     <MESSAGE value="初始化web工程" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化web工程" />
+    <MESSAGE value="update web工程" />
+    <option name="LAST_COMMIT_MESSAGE" value="update web工程" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -210,30 +206,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="945" y="249" key="#Go_Modules/0.0.1536.824@0.0.1536.824" timestamp="1643276635957" />
-    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643942873163">
+    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1643970867847">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1643942873163" />
+    <state x="884" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1643970867847" />
     <state x="1040" y="275" width="427" height="279" key="EnvironmentVariablesDialog" timestamp="1643276632210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1040" y="275" width="427" height="279" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1643276632210" />
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1643728691361">
+    <state width="724" height="241" key="GridCell.Tab.0.bottom" timestamp="1643971029223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643728691361" />
-    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1643728691361">
+    <state width="724" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
+    <state width="724" height="241" key="GridCell.Tab.0.center" timestamp="1643971029223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643728691361" />
-    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1643728691361">
+    <state width="724" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
+    <state width="724" height="241" key="GridCell.Tab.0.left" timestamp="1643971029223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643728691361" />
-    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1643728691361">
+    <state width="724" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
+    <state width="724" height="241" key="GridCell.Tab.0.right" timestamp="1643971029223">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643728691361" />
+    <state width="724" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
     <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1643518007069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,10 +250,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1643467257451" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1643942518645">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1643953121925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643942518645" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643953121925" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1643462954181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
