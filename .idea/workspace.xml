@@ -11,14 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcae0047-f5e0-4e12-80c0-af82683908a8" name="Default Changelist" comment="update web工程">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/.env.location" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/.env.location" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/server/config-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/server/config-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/server/config-prod.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/server/config-prod.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/server/config-test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/server/config-test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/auto_code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/core/viper.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/core/viper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/initialize/plugin.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/log/server_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/log/server_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/plugin/example_plugin/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/utils/plugin/plugin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/utils/plugin/plugin_uinx.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/utils/verify.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/utils/verify.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,22 +219,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="1040" y="275" width="427" height="279" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1643276632210" />
-    <state width="724" height="241" key="GridCell.Tab.0.bottom" timestamp="1643971029223">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom" timestamp="1646988945404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
-    <state width="724" height="241" key="GridCell.Tab.0.center" timestamp="1643971029223">
+    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1646988945404" />
+    <state width="1493" height="243" key="GridCell.Tab.0.center" timestamp="1646988945404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
-    <state width="724" height="241" key="GridCell.Tab.0.left" timestamp="1643971029223">
+    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1646988945404" />
+    <state width="1493" height="243" key="GridCell.Tab.0.left" timestamp="1646988945404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
-    <state width="724" height="241" key="GridCell.Tab.0.right" timestamp="1643971029223">
+    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1646988945404" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right" timestamp="1646988945404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="724" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1643971029223" />
+    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1646988945404" />
     <state width="1493" height="263" key="GridCell.Tab.1.bottom" timestamp="1643518007069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,6 +259,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1643953121925" />
+    <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1646989149351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1646989149351" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1643462954181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

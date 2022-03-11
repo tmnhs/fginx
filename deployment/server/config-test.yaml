@@ -1,29 +1,6 @@
-#阿里云存储对象oss
-aliyun-oss:
-  endpoint: yourEndpoint
-  access-key-id: yourAccessKeyId
-  access-key-secret: yourAccessKeySecret
-  bucket-name: yourBucketName
-  bucket-url: yourBucketUrl
-  base-path: yourBasePath
-#自动生成代码
-autocode:
-  transfer-restart: true
-  root: /Users/guankuo/dev/go/src/moria-platform
-  server: /server
-  server-api: /api/v1/autocode
-  server-initialize: /initialize
-  server-model: /model/autocode
-  server-request: /model/autocode/request/
-  server-router: /router/autocode
-  server-service: /service/autocode
-  web: /web/src
-  web-api: /api
-  web-form: /view
-  web-table: /view
-#全自动区分电脑与人类的图灵测试
+#验证码
 captcha:
-  key-long: 6
+  key-long: 4
   img-width: 240
   img-height: 80
 #权限认证模块
@@ -51,7 +28,7 @@ db-list:
     type: mysql
     alias-name: "match_sns-读"
     path: 127.0.0.1
-    port: "3306"
+    port: "3307"
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: match_sns
     table-pre: "m_"
@@ -61,7 +38,6 @@ db-list:
     max-open-conns: 100
     log-mode: ""
     log-zap: false
-    autocode: true
     global-db: "GVA_DBMatchSns_R"
   - disable: false
     type: mysql
@@ -77,27 +53,19 @@ db-list:
     max-open-conns: 100
     log-mode: ""
     log-zap: false
-    autocode: false
     global-db: "GVA_DBMatchSns_W"
-  #  邮箱
-  email:
-    to: xxx@qq.com
-    port: 465
-    from: 1685290935@qq.com
-    host: smtp.163.com
-    is-ssl: true
-    secret: pmyrkszqimaicdfj
-    nickname: test
+#  邮箱
+email:
+  to: xxx@qq.com
+  port: 465
+  from: 1685290935@qq.com
+  host: smtp.163.com
+  is-ssl: true
+  secret: pmyrkszqimaicdfj
+  nickname: test
 #excel表格文件
 excel:
   dir: ./resource/excel/
-#华为云对象存储服务
-hua-wei-obs:
-  path: you-path
-  bucket: you-bucket
-  endpoint: you-endpoint
-  access-key: you-access-key
-  secret-key: you-secret-key
 #jwt权鉴
 jwt:
   buffer-time: 86400
@@ -117,11 +85,11 @@ mysql:
   path: 127.0.0.1
   port: "3307"
   config: charset=utf8mb4&parseTime=True&loc=Local
-  db-name: moria_flatform
+  db-name: db1
   username: root
-  password: "root"
-  max-idle-conns: 0
-  max-open-conns: 0
+  password: root
+  max-idle-conns: 100
+  max-open-conns: 100
   log-mode: ""
   log-zap: false
 pgsql:
@@ -135,15 +103,6 @@ pgsql:
   max-open-conns: 100
   log-mode: ""
   log-zap: false
-#七牛云对象存储
-qiniu:
-  zone: ZoneHuaDong
-  bucket: ""
-  img-path: ""
-  use-https: false
-  access-key: "3v1jdAbn2NJ6tOS36ZKvYLDdobjFQjkecYkdKNBr"
-  secret-key: " ZjM5P7RFoLFO6-A-Hf0F6GYlmw-MORAEljeNPw70"
-  use-cdn-domains: false
 #redis服务
 redis:
   db: 0
@@ -151,12 +110,36 @@ redis:
   password: ""
 system:
   env: public
-  addr: 8889
+  addr: 8888
   db-type: mysql
-  oss-type: local   # 控制oss选择走本期还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
+  oss-type: qiniu   # 控制oss选择走本期还是 七牛等其他仓 自行增加其他oss仓可以在 server/utils/upload/upload.go 中 NewOss函数配置
   use-multipoint: false
   iplimit-count: 15000
   iplimit-time: 3600
+#阿里云存储对象oss
+aliyun-oss:
+  endpoint: yourEndpoint
+  access-key-id: yourAccessKeyId
+  access-key-secret: yourAccessKeySecret
+  bucket-name: yourBucketName
+  bucket-url: yourBucketUrl
+  base-path: yourBasePath
+#华为云对象存储服务
+hua-wei-obs:
+  path: you-path
+  bucket: you-bucket
+  endpoint: you-endpoint
+  access-key: you-access-key
+  secret-key: you-secret-key
+#七牛云对象存储
+qiniu:
+  zone: ZoneHuanan
+  bucket: ginvue
+  img-path: http://qny.tmnhs.top
+  use-https: false
+  access-key: 3v1jdAbn2NJ6tOS36ZKvYLDdobjFQjkecYkdKNBr
+  secret-key: ZjM5P7RFoLFO6-A-Hf0F6GYlmw-MORAEljeNPw70
+  use-cdn-domains: false
 #腾讯云对象存储
 tencent-cos:
   bucket: xxxxx-10005608

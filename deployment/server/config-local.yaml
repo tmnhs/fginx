@@ -1,19 +1,4 @@
-#自动生成代码
-autocode:
-  transfer-restart: true
-  root: /Users/guankuo/dev/go/src/moria-platform
-  server: /server
-  server-api: /api/v1/autocode
-  server-initialize: /initialize
-  server-model: /model/autocode
-  server-request: /model/autocode/request/
-  server-router: /router/autocode
-  server-service: /service/autocode
-  web: /web/src
-  web-api: /api
-  web-form: /view
-  web-table: /view
-#全自动区分电脑与人类的图灵测试
+#验证码
 captcha:
   key-long: 4
   img-width: 240
@@ -53,7 +38,6 @@ db-list:
     max-open-conns: 100
     log-mode: ""
     log-zap: false
-    autocode: true
     global-db: "GVA_DBMatchSns_R"
   - disable: false
     type: mysql
@@ -69,7 +53,6 @@ db-list:
     max-open-conns: 100
     log-mode: ""
     log-zap: false
-    autocode: false
     global-db: "GVA_DBMatchSns_W"
 #  邮箱
 email:

@@ -106,3 +106,9 @@
 [github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.654	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
 [github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.655	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
 [github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.656	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.155	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:25	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.155	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:29	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.167	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:25	use middleware logger
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:29	use middleware cors
+[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.753	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}

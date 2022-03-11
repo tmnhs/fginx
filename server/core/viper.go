@@ -9,7 +9,6 @@ import (
 	"github.com/songzhibin97/gkit/cache/local_cache"
 	"github.com/spf13/viper"
 	"os"
-	"path/filepath"
 	"time"
 )
 
@@ -52,9 +51,6 @@ func Viper(path ...string) *viper.Viper {
 	if err := v.Unmarshal(&global.GV_CONFIG); err != nil {
 		fmt.Println(err)
 	}
-	// root 适配性
-	// 根据root位置去找到对应迁移位置,保证root路径有效
-	global.GV_CONFIG.AutoCode.Root, _ = filepath.Abs("..")
 	global.BlackCache = local_cache.NewCache(
 		local_cache.SetDefaultExpire(time.Second * time.Duration(global.GV_CONFIG.JWT.ExpiresTime)),
 	)
