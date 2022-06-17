@@ -21,4 +21,4 @@ RUN go build -o server .
 EXPOSE 8888
 
 # 启动容器时运行的命令
-ENTRYPOINT ./server -c config.docker.yaml
+ENTRYPOINT nohup ./server -c=config.docker.yaml &
