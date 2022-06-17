@@ -3,13 +3,15 @@ package core
 import (
 	"flag"
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
-	"github.com/fsnotify/fsnotify"
-	"github.com/songzhibin97/gkit/cache/local_cache"
-	"github.com/spf13/viper"
+	"github.com/tmnhs/fginx/server/global"
+	"github.com/tmnhs/fginx/server/pkg/utils"
 	"os"
 	"time"
+
+	"github.com/songzhibin97/gkit/cache/local_cache"
+
+	"github.com/fsnotify/fsnotify"
+	"github.com/spf13/viper"
 )
 
 func Viper(path ...string) *viper.Viper {
@@ -23,10 +25,14 @@ func Viper(path ...string) *viper.Viper {
 				fmt.Printf("您正在使用config的默认值,config的路径为%v\n", utils.ConfigFile)
 			} else {
 				config = configEnv
-				fmt.Printf("您正在使用GV_CONFIG环境变量,config的路径为%v\n", config)
+				fmt.Printf("您正在使用GVA_CONFIG环境变量,config的路径为%v\n", config)
 			}
-		} else {
-			fmt.Printf("您正在使用命令行的-c参数传递的值,config的路径为%v\n", config)
+		} else if config == utils.Development {
+			config = utils.LocalConfig
+			fmt.Printf("您正在使用命令行的-c参数传递的值,development为本地开发环境,config的路径为%v\n", config)
+		} else if config == utils.Production {
+			config = utils.ProductConfig
+			fmt.Printf("您正在使用命令行的-c参数传递的值,production为生产环境,config的路径为%v\n", config)
 		}
 	} else {
 		config = path[0]

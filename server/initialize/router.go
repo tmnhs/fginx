@@ -1,13 +1,12 @@
 package initialize
 
 import (
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/middleware"
-	"github.com/flipped-aurora/gin-vue-admin/server/router"
 	"github.com/gin-gonic/gin"
+	"github.com/tmnhs/fginx/server/global"
+	"github.com/tmnhs/fginx/server/internal/middleware"
+	"github.com/tmnhs/fginx/server/internal/router"
 )
 
-//todo
 func Routers() *gin.Engine {
 	Router := gin.Default()
 
@@ -38,7 +37,7 @@ func Routers() *gin.Engine {
 	{
 		// 健康监测
 		PublicGroup.GET("health", func(c *gin.Context) {
-			c.JSON(200, "ok")
+			c.JSON(200, "the api is healthy")
 		})
 	}
 	{
@@ -52,7 +51,6 @@ func Routers() *gin.Engine {
 		systemRouter.InitUserRouter(PrivateGroup) // 注册用户路由
 
 		fileRouter.InitFileUploadAndDownloadRouter(PrivateGroup) // 文件上传下载功能路由
-		// 注册用户路由
 	}
 	return Router
 }

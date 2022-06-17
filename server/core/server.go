@@ -2,9 +2,8 @@ package core
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/initialize"
-	"github.com/flipped-aurora/gin-vue-admin/server/service/system"
+	"github.com/tmnhs/fginx/server/global"
+	"github.com/tmnhs/fginx/server/initialize"
 	"go.uber.org/zap"
 	"time"
 )
@@ -14,14 +13,9 @@ type server interface {
 }
 
 func RunWindowsServer() {
-	//fmt.Println(global.GV_CONFIG.System.UseMultipoint )
-	if global.GV_CONFIG.System.UseMultipoint {
-		//初始化redis服务
-		initialize.Redis()
-	}
 	// 从db加载jwt数据
 	if global.GV_DB != nil {
-		system.LoadAll()
+		//system.LoadAll()
 	}
 	Router := initialize.Routers()
 
@@ -34,14 +28,10 @@ func RunWindowsServer() {
 	time.Sleep(10 * time.Microsecond)
 	global.GV_LOG.Info("server run success on ", zap.String("address", address))
 
-	a := []int{1, 3, 2}
-
-	fmt.Println("===================12121", a[len(a)-1])
-
 	fmt.Printf(`
-	欢迎使用
-	默认自动化文档地址:http://127.0.0.1%s/swagger/index.html
-	默认前端文件运行地址:http://127.0.0.1:8080
+	欢迎使用hust_mall
+
+	项目后台运行地址:http://127.0.0.1%s
 	`, address)
 	global.GV_LOG.Error(s.ListenAndServe().Error())
 

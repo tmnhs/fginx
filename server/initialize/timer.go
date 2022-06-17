@@ -2,12 +2,17 @@ package initialize
 
 import (
 	"fmt"
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/tmnhs/fginx/server/global"
+	"github.com/tmnhs/fginx/server/internal/config"
+	"github.com/tmnhs/fginx/server/pkg/utils"
 )
 
 func Timer() {
+	//清除数据库
+	//ClearDBTask()
+	//ClearTimeoutConnections()
+}
+func ClearDBTask() {
 	if global.GV_CONFIG.Timer.Start {
 		for i := range global.GV_CONFIG.Timer.Detail {
 			go func(detail config.Detail) {

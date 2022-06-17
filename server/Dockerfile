@@ -1,6 +1,13 @@
-FROM golang:alpine as builder
+FROM golang:alpine
 
-WORKDIR /go/src/github.com/flipped-aurora/gin-vue-admin/server
+ENV GO111MODULE=on \
+    CGO_ENABLED=0 \
+    GOOS=linux \
+    GOARCH=amd64
+
+WORKDIR /data/app/fginx/server
+
+# 将代码复制到容器中
 COPY . .
 
 RUN go env -w GO111MODULE=on
@@ -10,13 +17,8 @@ RUN go env
 RUN go mod tidy
 RUN go build -o server .
 
-FROM alpine:latest
-LABEL MAINTAINER="SliverHorn@sliver_horn@qq.com"
-
-WORKDIR /go/src/github.com/flipped-aurora/gin-vue-admin/server
-
-COPY --from=0 /go/src/github.com/flipped-aurora/gin-vue-admin/server ./
-
+# 声明服务端口
 EXPOSE 8888
 
+# 启动容器时运行的命令
 ENTRYPOINT ./server -c config.docker.yaml

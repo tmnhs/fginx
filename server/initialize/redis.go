@@ -2,8 +2,8 @@ package initialize
 
 import (
 	"context"
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
 	"github.com/go-redis/redis/v8"
+	"github.com/tmnhs/fginx/server/global"
 	"go.uber.org/zap"
 )
 

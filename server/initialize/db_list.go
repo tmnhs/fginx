@@ -1,6 +1,6 @@
 package initialize
 
-import "github.com/flipped-aurora/gin-vue-admin/server/global"
+import "github.com/tmnhs/fginx/server/global"
 
 const sys = "system"
 

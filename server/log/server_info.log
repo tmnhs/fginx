@@ -1,114 +1,982 @@
-[github.com/flipped-aurora/gin-vue-admin/server]2022/01/30 - 13:01:12.659	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:33	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/01/30 - 13:03:29.037	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:33	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/01/30 - 13:09:08.730	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:33	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:37:17.407	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:28	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:37:17.409	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:32	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:37:17.410	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:34	register swagger handler
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:37:17.418	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:33	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:38:54.194	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:28	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:38:54.195	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:32	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:38:54.196	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:34	register swagger handler
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:38:54.205	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:40:02.485	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:40:02.490	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:28	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:40:02.490	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:32	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:40:02.490	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:34	register swagger handler
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:40:02.491	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8889"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:48:07.922	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:48:07.928	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:28	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:48:07.928	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:32	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:48:07.929	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:34	register swagger handler
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:48:07.943	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:54:14.858	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:54:14.864	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:54:14.864	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:54:14.880	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:57:27.274	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:57:27.279	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:57:27.279	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:57:27.280	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:59:27.141	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:59:27.142	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 13:59:27.155	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:02:32.891	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:02:32.892	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:02:32.892	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:02:32.898	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:34	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:06:17.729	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:06:17.736	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:06:17.736	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 14:06:17.751	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:01:25.691	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:01:25.694	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:01:25.694	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:01:25.697	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:04:56.393	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:04:56.396	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:04:56.396	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:04:56.412	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:25.755	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:25.758	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:25.758	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:25.769	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:39.277	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:39.279	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:39.279	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:09:39.288	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:10:10.558	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:10:10.561	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:10:10.561	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:10:10.577	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:11:21.254	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:11:21.257	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:11:21.257	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:11:21.266	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:13:04.318	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:13:04.320	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:13:04.320	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:13:04.332	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:40:43.267	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:40:43.270	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:40:43.270	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:40:43.281	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:51:08.597	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:51:08.599	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:51:08.599	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 15:51:08.609	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:01:56.969	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:01:56.972	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:01:56.972	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:01:56.979	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:02:55.967	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:02:55.969	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:02:55.969	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 16:02:55.983	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:38:15.395	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:38:15.396	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:38:15.398	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:41:02.373	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:41:02.373	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:41:02.375	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:57:03.183	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:57:03.184	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 22:57:03.187	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:31.648	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:31.649	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:31.650	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:52.193	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:52.193	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:00:52.196	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:09:02.097	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:09:02.099	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:09:02.101	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:15:09.644	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:15:09.645	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/01 - 23:15:09.649	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.654	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.655	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/02/04 - 18:37:09.656	[34minfo[0m	C:/Users/admin/Desktop/造轮子/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.155	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.155	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:53:15.167	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:25	use middleware logger
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/initialize/router.go:29	use middleware cors
-[github.com/flipped-aurora/gin-vue-admin/server]2022/03/11 - 16:55:45.753	[34minfo[0m	C:/Users/admin/Desktop/go-mall/gin-vue/server/core/server.go:35	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 15:18:31.757	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 15:18:31.763	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 15:18:31.763	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 15:18:31.772	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 15:22:22.562	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 15:22:22.567	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 15:22:22.567	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 15:22:22.575	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 15:25:32.988	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 15:25:32.994	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 15:25:32.994	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 15:25:33.003	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 16:54:45.317	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 16:54:45.321	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 16:54:45.321	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 16:54:45.326	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 17:08:49.253	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 17:08:49.256	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 17:08:49.256	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 17:08:49.262	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 17:10:55.837	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 17:10:55.839	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 17:10:55.839	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 17:10:55.853	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 17:16:34.010	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 17:16:34.013	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 17:16:34.013	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 17:16:34.030	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 17:21:57.823	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 17:21:57.825	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 17:21:57.825	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 17:21:57.839	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 18:23:16.227	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 18:23:16.232	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 18:23:16.233	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 18:23:16.236	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 19:28:03.884	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 19:28:03.888	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 19:28:03.888	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 19:28:03.904	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 19:29:44.286	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 19:29:44.289	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 19:29:44.289	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 19:29:44.297	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 19:30:02.197	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 19:30:02.200	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 19:30:02.200	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 19:30:02.212	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 19:59:14.968	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 19:59:14.972	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 19:59:14.972	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 19:59:14.987	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 20:03:53.661	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 20:03:53.663	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 20:03:53.663	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 20:03:53.671	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 20:12:19.592	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 20:12:19.596	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 20:12:19.596	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 20:12:19.601	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/25 - 20:31:30.464	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/25 - 20:31:30.466	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/25 - 20:31:30.466	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/25 - 20:31:30.473	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 11:16:56.736	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 11:16:56.745	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 11:16:56.745	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 11:16:56.756	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 13:05:23.633	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 13:05:23.638	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 13:05:23.638	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 13:05:23.651	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 13:07:03.315	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 13:07:03.321	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 13:07:03.321	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 13:07:03.328	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 20:45:52.478	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 20:45:52.496	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 20:45:52.496	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 20:45:52.503	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:06:57.055	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:06:57.059	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:06:57.059	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:06:57.063	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:16:35.001	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:16:35.003	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:16:35.003	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:16:35.020	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:20:03.350	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:20:03.353	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:20:03.353	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:20:03.366	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:36:38.328	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:36:38.333	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:36:38.333	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:36:38.347	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:43:46.791	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:43:46.793	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:43:46.793	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:43:46.808	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 21:58:49.209	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 21:58:49.212	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 21:58:49.212	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 21:58:49.222	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 22:02:13.468	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 22:02:13.470	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 22:02:13.470	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 22:02:13.476	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/26 - 22:04:43.356	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/26 - 22:04:43.358	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/26 - 22:04:43.358	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/26 - 22:04:43.371	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/27 - 21:50:08.918	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/27 - 21:50:08.945	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/27 - 21:50:08.945	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/27 - 21:50:08.957	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/27 - 22:11:58.883	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/27 - 22:11:58.889	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/27 - 22:11:58.889	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/27 - 22:11:58.898	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/27 - 22:14:27.494	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/27 - 22:14:27.497	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/27 - 22:14:27.497	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/27 - 22:14:27.508	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/27 - 22:21:15.240	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/27 - 22:21:15.244	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/27 - 22:21:15.244	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/27 - 22:21:15.251	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/27 - 22:23:47.943	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/27 - 22:23:47.945	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/27 - 22:23:47.945	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/27 - 22:23:47.952	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 14:30:51.301	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 14:30:51.310	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 14:30:51.310	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 14:30:51.318	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 14:37:34.682	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 14:37:34.688	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 14:37:34.688	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 14:37:34.694	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 14:42:41.889	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 14:42:41.892	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 14:42:41.892	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 14:42:41.899	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 15:20:53.804	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 15:20:53.810	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 15:20:53.810	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 15:20:53.819	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 15:23:50.128	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 15:23:50.134	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 15:23:50.134	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 15:23:50.142	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 15:25:17.347	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 15:25:17.351	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 15:25:17.351	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 15:25:17.360	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 15:27:05.877	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 15:27:05.884	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 15:27:05.884	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 15:27:05.895	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/28 - 15:30:43.131	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/28 - 15:30:43.142	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/28 - 15:30:43.142	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/28 - 15:30:43.153	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 15:27:56.871	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 15:27:56.881	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 15:27:56.881	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 15:27:56.892	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 15:47:34.279	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 15:47:34.282	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 15:47:34.282	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 15:47:34.290	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 15:50:03.337	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 15:50:03.339	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 15:50:03.339	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 15:50:03.348	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:08:05.935	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:08:05.937	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:08:05.937	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:08:05.941	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:12:43.585	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:12:43.586	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:12:43.586	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:12:43.589	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:43:21.570	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:43:21.573	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:43:21.573	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:43:21.586	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:45:51.202	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:45:51.205	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:45:51.205	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:45:51.208	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:50:48.512	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:50:48.515	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:50:48.515	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:50:48.523	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:51:33.103	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:51:33.105	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:51:33.105	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:51:33.110	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 16:52:13.908	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 16:52:13.911	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 16:52:13.911	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 16:52:13.918	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 17:01:16.298	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 17:01:16.298	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 17:01:16.298	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 17:01:16.311	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 19:11:24.734	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 19:11:24.734	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 19:11:24.734	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 19:11:24.742	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 19:21:12.738	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 19:21:12.748	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 19:21:12.748	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 19:21:12.757	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/29 - 19:38:14.182	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/29 - 19:38:14.189	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/29 - 19:38:14.189	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/29 - 19:38:14.204	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/30 - 21:58:58.938	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 21:58:58.949	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/30 - 21:58:58.949	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/30 - 21:58:58.954	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/30 - 22:00:13.409	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:02:06.424	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:03:59.714	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:07:39.714	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:07:39.966	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/30 - 22:07:39.966	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/30 - 22:07:39.976	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/03/30 - 22:36:57.960	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:41:19.192	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/03/30 - 22:41:19.493	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/03/30 - 22:41:19.493	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/03/30 - 22:41:19.499	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/02 - 17:01:48.511	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/02 - 17:01:53.564	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/02 - 17:01:53.564	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/02 - 17:01:53.568	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 08:52:44.801	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 08:52:46.095	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 08:52:46.095	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 08:52:46.106	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 09:16:36.737	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 09:16:37.057	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 09:16:37.057	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 09:16:37.068	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 09:26:04.802	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 09:26:05.749	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 09:26:05.749	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 09:26:05.751	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 09:31:56.008	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 09:31:56.378	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 09:31:56.378	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 09:31:56.388	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 09:35:51.851	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 09:35:52.240	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 09:35:52.240	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 09:35:52.254	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 13:53:45.970	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 13:53:46.353	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 13:53:46.353	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 13:53:46.354	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 14:07:57.519	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 14:07:57.860	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 14:07:57.860	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 14:07:57.863	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 14:34:16.043	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 14:34:16.622	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 14:34:16.622	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 14:34:16.631	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 22:32:47.043	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 22:32:47.444	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 22:32:47.445	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 22:32:47.460	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 23:08:19.456	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 23:08:19.811	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 23:08:19.811	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 23:08:19.812	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 23:27:27.994	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 23:27:28.326	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 23:27:28.326	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 23:27:28.341	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 23:34:00.958	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 23:34:01.295	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 23:34:01.295	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 23:34:01.302	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 23:35:15.735	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 23:35:16.104	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 23:35:16.104	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 23:35:16.105	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/03 - 23:36:03.743	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/03 - 23:36:04.145	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/03 - 23:36:04.145	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/03 - 23:36:04.152	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:36:07.396	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:36:07.855	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:36:07.855	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:36:07.870	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:39:49.156	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:39:49.524	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:39:49.525	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:39:49.530	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:41:03.666	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:41:04.038	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:41:04.038	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:41:04.044	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:52:43.253	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:52:43.619	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:52:43.619	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:52:43.631	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:54:46.385	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:54:46.921	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:54:46.921	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:54:46.930	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:55:32.294	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:55:32.782	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:55:32.782	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:55:32.791	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 10:56:51.039	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 10:56:51.460	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 10:56:51.460	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 10:56:51.464	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 11:01:16.897	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 11:01:17.222	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 11:01:17.222	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 11:01:17.222	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 11:13:50.553	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 11:13:50.947	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 11:13:50.947	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 11:13:50.948	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 12:34:52.322	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 12:34:54.067	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 12:34:54.067	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 12:34:54.067	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 12:43:34.634	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 12:43:35.395	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 12:43:35.395	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 12:43:35.407	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 12:44:08.727	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 12:44:10.360	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 12:44:10.360	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 12:44:10.376	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 13:18:57.836	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 13:18:58.801	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 13:18:58.801	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 13:18:58.813	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:03:34.406	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:03:35.217	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:03:35.217	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:03:35.218	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:03:51.703	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:03:52.085	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:03:52.085	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:03:52.095	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:12:59.334	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:12:59.631	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:12:59.631	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:12:59.646	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:27:04.070	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:27:04.350	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:27:04.350	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:27:04.359	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:28:14.555	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:28:14.871	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:28:14.871	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:28:14.884	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 14:41:07.561	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 14:41:07.900	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 14:41:07.900	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 14:41:07.912	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 15:33:50.928	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 15:33:51.857	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 15:33:51.859	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 15:33:51.859	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 15:44:40.542	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 15:44:40.822	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 15:44:40.822	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 15:44:40.826	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/04 - 23:19:23.950	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/04 - 23:19:24.399	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/04 - 23:19:24.399	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/04 - 23:19:24.412	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/05 - 10:37:28.793	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/05 - 10:37:28.795	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/05 - 10:37:28.810	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/05 - 10:39:45.419	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/05 - 10:39:45.796	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[hust_mall]2022/04/05 - 10:39:45.796	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[hust_mall]2022/04/05 - 10:39:45.796	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 11:32:13.219	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 11:32:13.601	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 11:32:13.601	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 11:32:13.616	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 11:40:09.243	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 11:40:09.632	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 11:40:09.632	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 11:40:09.642	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:27:10.052	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:27:10.406	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:27:10.406	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:27:10.418	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:32:52.859	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:32:53.218	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:32:53.218	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:32:53.220	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:35:04.258	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:35:04.673	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:35:04.673	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:35:04.673	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:40:38.373	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:40:38.686	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:40:38.686	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:40:38.688	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:44:03.953	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:44:04.280	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:44:04.280	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:44:04.283	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:46:42.700	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:46:43.071	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:46:43.071	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:46:43.073	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:51:02.297	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:51:02.621	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:51:02.621	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:51:02.622	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 17:52:56.078	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 17:52:56.405	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 17:52:56.405	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 17:52:56.407	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 19:04:44.794	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 19:04:45.203	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 19:04:45.203	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 19:04:45.216	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 19:05:25.780	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 19:05:26.187	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 19:05:26.187	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 19:05:26.189	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 20:01:57.276	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 20:01:57.658	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 20:01:57.658	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 20:01:57.659	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 20:04:20.773	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 20:04:21.122	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 20:04:21.122	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 20:04:21.124	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:07:24.871	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:07:25.257	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:07:25.257	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:07:25.260	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:22:01.133	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:22:01.465	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:22:01.465	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:22:01.467	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:25:23.023	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:25:23.352	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:25:23.352	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:25:23.354	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:26:40.684	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:26:41.071	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:26:41.071	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:26:41.072	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:30:12.235	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:30:12.675	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:30:12.675	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:30:12.677	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:31:38.756	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:31:39.396	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:31:39.397	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:31:39.400	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:31:58.752	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:31:59.133	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:31:59.133	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:31:59.135	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:33:09.875	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:33:10.881	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:33:10.881	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:33:10.882	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:34:27.212	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:34:27.583	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:34:27.583	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:34:27.587	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:45:24.966	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:45:25.333	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:45:25.333	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:45:25.335	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:46:46.796	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:46:47.197	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:46:47.197	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:46:47.200	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 21:48:47.492	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 21:48:47.851	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 21:48:47.851	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 21:48:47.853	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 22:37:44.324	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 22:37:44.780	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 22:37:44.780	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 22:37:44.789	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 22:41:50.149	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 22:41:50.565	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 22:41:50.565	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 22:41:50.568	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 22:49:00.051	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 22:49:00.393	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 22:49:00.393	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 22:49:00.394	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/07 - 23:00:46.265	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/07 - 23:00:46.643	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/07 - 23:00:46.643	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/07 - 23:00:46.651	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 14:23:58.322	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 14:23:58.718	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 14:23:58.718	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 14:23:58.725	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 14:53:16.356	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 14:53:16.790	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 14:53:16.790	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 14:53:16.802	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:06:49.781	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:06:50.120	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:06:50.121	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:06:50.125	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:15:34.451	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:15:34.857	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:15:34.857	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:15:34.860	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:19:07.527	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:19:07.908	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:19:07.909	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:19:07.910	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:19:36.674	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:19:37.005	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:19:37.005	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:19:37.007	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:21:26.827	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:21:27.189	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:21:27.189	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:21:27.194	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 15:27:49.462	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 15:27:49.804	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 15:27:49.804	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 15:27:49.806	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 16:45:08.351	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 16:45:09.292	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 16:45:09.292	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 16:45:09.292	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 16:46:33.581	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 16:46:34.289	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 16:46:34.289	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 16:46:34.290	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 17:03:53.404	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 17:03:54.127	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 17:03:54.127	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 17:03:54.129	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 17:11:08.265	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 17:11:08.981	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 17:11:08.981	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 17:11:08.983	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/08 - 17:33:58.720	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/08 - 17:33:59.442	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/08 - 17:33:59.442	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/08 - 17:33:59.444	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 11:05:24.972	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 11:05:25.706	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 11:05:25.706	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 11:05:25.708	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 11:18:04.247	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 11:18:04.803	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 11:18:04.803	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 11:18:04.805	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 11:29:53.660	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 11:29:54.332	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 11:29:54.333	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 11:29:54.335	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 11:38:26.965	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 11:38:27.434	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 11:38:27.434	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 11:38:27.436	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 11:42:20.232	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 11:42:20.809	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 11:42:20.809	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 11:42:20.811	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 12:48:48.693	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 12:48:49.080	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 12:48:49.081	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 12:48:49.082	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 14:00:57.972	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 14:00:58.404	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 14:00:58.404	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 14:00:58.410	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 14:24:48.062	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 14:24:48.521	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 14:24:48.521	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 14:24:48.523	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 14:58:41.672	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 14:58:42.064	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 14:58:42.064	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 14:58:42.069	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 15:16:44.111	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 15:16:44.562	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 15:16:44.562	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 15:16:44.564	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 15:19:33.492	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 15:19:33.961	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 15:19:33.961	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 15:19:33.963	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 15:36:26.552	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 15:36:27.484	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 15:36:27.484	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 15:36:27.486	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:12:22.028	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:12:22.446	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:12:22.446	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:12:22.450	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:25:49.496	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:25:49.879	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:25:49.879	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:25:49.881	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:27:45.137	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:27:45.482	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:27:45.482	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:27:45.485	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:29:02.619	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:29:03.015	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:29:03.015	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:29:03.020	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:32:02.862	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:32:03.229	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:32:03.229	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:32:03.232	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 19:53:52.018	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 19:53:52.352	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 19:53:52.352	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 19:53:52.355	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 20:01:36.634	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 20:01:37.033	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 20:01:37.033	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 20:01:37.035	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 21:23:38.015	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 21:23:38.426	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 21:23:38.426	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 21:23:38.428	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/09 - 21:26:18.314	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/09 - 21:26:19.028	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/09 - 21:26:19.028	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/09 - 21:26:19.030	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 08:50:30.980	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 08:50:31.385	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 08:50:31.385	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 08:50:31.386	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:26:20.675	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:26:21.122	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:26:21.122	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:26:21.123	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:27:17.955	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:27:18.388	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:27:18.388	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:27:18.390	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:41:23.004	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:41:23.540	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:41:23.540	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:41:23.543	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:43:53.079	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:43:53.502	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:43:53.502	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:43:53.503	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:50:33.816	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:50:34.209	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:50:34.209	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:50:34.211	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:56:35.723	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:56:36.123	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:56:36.123	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:56:36.125	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:57:52.251	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:57:52.652	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:57:52.652	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:57:52.653	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:58:24.411	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:58:24.848	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:58:24.848	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:58:24.850	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 10:59:30.838	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 10:59:31.235	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 10:59:31.235	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 10:59:31.237	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:08:55.243	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:08:55.633	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:08:55.633	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:08:55.635	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:10:41.702	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:10:42.065	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:10:42.065	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:10:42.066	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:12:35.900	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:12:36.261	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:12:36.261	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:12:36.263	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:14:56.453	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:14:56.833	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:14:56.833	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:14:56.835	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:17:27.741	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:17:28.137	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:17:28.137	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:17:28.139	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/10 - 11:46:25.430	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/10 - 11:46:25.775	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/10 - 11:46:25.776	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/10 - 11:46:25.782	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 14:59:07.228	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 14:59:07.890	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 14:59:07.890	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 14:59:07.898	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 14:59:54.838	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 14:59:55.424	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 14:59:55.424	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 14:59:55.426	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 15:03:34.883	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 15:03:35.389	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 15:03:35.389	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 15:03:35.394	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 15:06:52.520	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 15:06:53.327	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 15:06:53.328	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 15:06:53.329	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 15:08:51.400	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 15:08:51.991	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 15:08:51.991	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 15:08:51.993	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 15:09:48.314	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 15:09:48.887	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 15:09:48.887	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 15:09:48.890	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/11 - 15:16:21.249	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/11 - 15:16:23.654	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/11 - 15:16:23.654	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/11 - 15:16:23.659	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 11:24:20.490	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 11:24:20.877	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 11:24:20.877	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 11:24:20.885	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 11:50:07.774	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 11:50:08.119	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 11:50:08.119	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 11:50:08.122	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 12:24:58.222	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 12:24:58.584	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 12:24:58.584	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 12:24:58.585	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 12:25:09.839	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 12:25:10.250	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 12:25:10.250	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 12:25:10.252	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 12:28:20.391	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 12:28:20.734	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 12:28:20.734	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 12:28:20.736	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 12:34:31.844	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 12:34:32.215	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 12:34:32.215	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 12:34:32.216	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 12:45:15.113	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 12:45:15.456	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 12:45:15.456	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 12:45:15.459	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 15:17:17.447	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 15:17:18.043	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 15:17:18.043	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 15:17:18.054	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 15:33:04.401	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 15:33:04.814	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 15:33:04.814	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 15:33:04.817	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 15:49:05.862	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 15:49:06.237	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 15:49:06.237	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 15:49:06.239	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 15:58:37.691	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 15:58:38.109	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 15:58:38.109	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 15:58:38.111	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 16:07:06.086	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 16:07:06.482	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 16:07:06.482	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 16:07:06.484	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 16:08:33.329	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 16:08:34.101	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 16:08:34.102	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 16:08:34.104	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 16:11:48.577	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 16:11:48.935	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 16:11:48.935	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 16:11:48.935	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 16:53:44.689	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 16:53:45.057	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 16:53:45.057	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 16:53:45.059	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 17:01:20.159	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 17:01:20.560	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:25	use middleware logger
+[--hust_mall--]2022/04/12 - 17:01:20.560	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:29	use middleware cors
+[--hust_mall--]2022/04/12 - 17:01:20.562	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 19:08:26.709	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 19:08:27.182	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/12 - 19:08:27.182	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/12 - 19:08:27.191	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/12 - 19:09:43.421	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/12 - 19:09:44.421	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/12 - 19:09:44.421	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/12 - 19:09:44.422	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/18 - 12:26:11.104	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/18 - 12:26:20.467	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/18 - 12:26:20.467	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/18 - 12:26:20.476	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/18 - 12:31:49.731	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/18 - 12:31:58.947	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/18 - 12:31:58.947	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/18 - 12:31:58.960	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/21 - 09:07:13.373	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/21 - 09:07:13.858	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/21 - 09:07:13.858	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/21 - 09:07:13.868	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[hust_mall]2022/04/21 - 09:32:30.562	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/21 - 09:32:31.021	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[hust_mall]2022/04/21 - 09:32:31.021	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[hust_mall]2022/04/21 - 09:32:31.023	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8091"}
+[hust_mall]2022/04/21 - 09:34:20.037	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/21 - 09:35:45.432	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[hust_mall]2022/04/21 - 09:35:45.432	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[hust_mall]2022/04/21 - 09:35:45.434	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:30	server run success on 	{"address": ":8091"}
+[hust_mall]2022/04/21 - 10:02:26.525	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[hust_mall]2022/04/21 - 10:02:27.326	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[hust_mall]2022/04/21 - 10:02:27.326	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[hust_mall]2022/04/21 - 10:02:27.327	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8091"}
+[--hust_mall--]2022/04/21 - 10:41:51.877	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/21 - 10:41:52.602	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/21 - 10:41:52.602	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/21 - 10:41:52.603	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/21 - 11:34:24.787	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/21 - 11:34:25.255	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/21 - 11:34:25.255	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/21 - 11:34:25.256	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/21 - 11:43:28.567	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/21 - 11:43:29.029	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/21 - 11:43:29.029	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/21 - 11:43:29.034	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 11:39:32.149	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 11:39:41.773	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 11:39:41.773	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 11:39:41.784	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 12:53:48.868	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 12:53:58.266	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 12:53:58.266	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 12:53:58.278	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 12:58:35.897	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 12:58:45.114	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 12:58:45.114	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 12:58:45.128	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 13:02:42.400	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 13:02:51.682	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 13:02:51.682	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 13:02:51.695	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 13:22:43.271	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 13:22:52.545	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 13:22:52.545	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 13:22:52.559	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 13:26:39.162	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 13:26:48.443	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 13:26:48.443	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 13:26:48.444	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 13:33:58.507	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 13:34:07.790	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 13:34:07.790	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 13:34:07.804	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 13:46:14.193	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 13:46:23.480	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 13:46:23.480	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 13:46:23.495	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 14:19:40.015	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 14:19:49.286	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 14:19:49.286	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 14:19:49.295	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/28 - 14:20:13.786	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/28 - 14:20:14.182	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/28 - 14:20:14.182	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/28 - 14:20:14.194	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/30 - 15:12:18.139	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/30 - 15:12:18.548	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/30 - 15:12:18.548	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/30 - 15:12:18.552	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/04/30 - 15:28:20.732	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/04/30 - 15:28:21.171	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/04/30 - 15:28:21.171	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/04/30 - 15:28:21.174	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/10 - 21:26:24.396	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/10 - 21:26:24.399	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/10 - 21:26:24.401	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/10 - 22:59:32.258	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/10 - 22:59:41.803	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/10 - 22:59:41.803	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/10 - 22:59:41.814	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/14 - 19:00:26.330	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/14 - 19:00:41.276	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/14 - 19:00:41.276	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/14 - 19:00:41.291	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/16 - 21:59:11.013	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/16 - 21:59:17.030	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/16 - 21:59:17.030	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/16 - 21:59:17.042	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/16 - 22:04:08.241	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/16 - 22:04:14.267	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/16 - 22:04:14.267	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/16 - 22:04:14.282	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/16 - 23:06:46.950	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/16 - 23:06:52.982	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/16 - 23:06:52.982	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/16 - 23:06:52.995	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/16 - 23:23:11.867	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/16 - 23:23:17.894	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/16 - 23:23:17.894	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/16 - 23:23:17.909	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 10:08:49.746	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 10:08:55.772	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 10:08:55.772	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 10:08:55.773	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 10:16:51.113	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 10:16:57.126	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 10:16:57.126	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 10:16:57.140	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 10:22:17.791	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 10:22:23.799	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 10:22:23.799	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 10:22:23.800	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 10:30:58.519	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 10:31:04.526	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 10:31:04.526	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 10:31:04.539	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 11:47:34.319	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 11:47:40.339	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 11:47:40.339	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 11:47:40.353	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 11:56:17.194	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 11:56:23.211	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 11:56:23.211	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 11:56:23.225	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 12:00:12.751	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 12:00:18.775	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 12:00:18.775	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 12:00:18.789	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 12:04:06.254	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 12:04:12.274	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 12:04:12.274	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 12:04:12.288	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 12:10:51.100	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 12:10:57.112	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 12:10:57.112	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 12:10:57.126	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/05/17 - 12:22:51.732	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/05/17 - 12:22:57.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/05/17 - 12:22:57.744	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/05/17 - 12:22:57.745	[34minfo[0m	C:/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/06/04 - 14:11:31.556	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/06/04 - 14:11:37.565	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/06/04 - 14:11:37.565	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/06/04 - 14:11:37.566	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/06/04 - 14:15:16.003	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/06/04 - 14:15:22.005	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/06/04 - 14:15:22.006	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/06/04 - 14:15:22.008	[34minfo[0m	/mnt/c/Users/admin/Desktop/go-mall/hust_mall/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/06/17 - 20:05:39.436	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/06/17 - 20:05:39.439	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/06/17 - 20:05:39.439	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/06/17 - 20:05:39.443	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/06/17 - 20:08:50.233	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/06/17 - 20:08:50.236	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/06/17 - 20:08:50.236	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/06/17 - 20:08:50.251	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/core/server.go:29	server run success on 	{"address": ":8888"}
+[--hust_mall--]2022/06/17 - 20:10:06.566	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/redis.go:21	redis connect ping response:	{"pong": "PONG"}
+[--hust_mall--]2022/06/17 - 20:10:06.573	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:24	use middleware logger
+[--hust_mall--]2022/06/17 - 20:10:06.573	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/initialize/router.go:28	use middleware cors
+[--hust_mall--]2022/06/17 - 20:10:06.588	[34minfo[0m	C:/Users/admin/Desktop/my_repo/fginx/server/core/server.go:29	server run success on 	{"address": ":8888"}

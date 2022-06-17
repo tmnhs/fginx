@@ -2,11 +2,12 @@ package core
 
 import (
 	"fmt"
+	"github.com/tmnhs/fginx/server/pkg/timer"
 	"os"
 	"time"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/global"
-	"github.com/flipped-aurora/gin-vue-admin/server/utils"
+	"github.com/tmnhs/fginx/server/global"
+	"github.com/tmnhs/fginx/server/pkg/utils"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )
@@ -93,5 +94,5 @@ func getEncoderCore(fileName string, level zapcore.LevelEnabler) (core zapcore.C
 
 // 自定义日志输出时间格式
 func CustomTimeEncoder(t time.Time, enc zapcore.PrimitiveArrayEncoder) {
-	enc.AppendString(t.Format(global.GV_CONFIG.Zap.Prefix + utils.TimeFormatDateV4))
+	enc.AppendString(t.Format(global.GV_CONFIG.Zap.Prefix + timer.TimeFormatDateV4))
 }

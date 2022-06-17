@@ -4,16 +4,17 @@ import (
 	"github.com/spf13/viper"
 	"sync"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/utils/timer"
 	"github.com/songzhibin97/gkit/cache/local_cache"
+	"github.com/tmnhs/fginx/server/pkg/timer"
 
 	"golang.org/x/sync/singleflight"
 
 	"go.uber.org/zap"
 
-	"github.com/flipped-aurora/gin-vue-admin/server/config"
+	"github.com/tmnhs/fginx/server/internal/config"
 
 	"github.com/go-redis/redis/v8"
+	"github.com/olivere/elastic/v7"
 	"gorm.io/gorm"
 )
 
@@ -27,10 +28,12 @@ type DbStruct struct {
 var (
 	GV_DB     *gorm.DB
 	GV_DBList map[string]DbStruct
+	//搜索引擎
+	GV_ES     *elastic.Client
 	GV_REDIS  *redis.Client
 	GV_CONFIG config.Server
 	GV_VP     *viper.Viper
-	// GV_LOG    *oplogging.Logger
+	//GV_LOG    *oplogging.Logger
 	GV_LOG                 *zap.Logger
 	GV_Timer               timer.Timer = timer.NewTimerTask()
 	GV_Concurrency_Control             = &singleflight.Group{}
