@@ -26,8 +26,6 @@ func Routers() *gin.Engine {
 	Router.Use(middleware.Cors()) // 直接放行全部跨域请求
 	//Router.Use(middleware.CorsByRules()) // 按照配置的规则放行跨域请求
 	global.GV_LOG.Info("use middleware cors")
-	//Router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
-	//global.GV_LOG.Info("register swagger handler")
 	// 方便统一添加路由组前缀 多服务器上线使用
 
 	// 获取路由组实例
