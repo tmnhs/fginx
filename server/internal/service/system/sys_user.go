@@ -13,11 +13,6 @@ import (
 	"time"
 )
 
-//@function: Register
-//@description: 用户注册
-//@param: u model.User
-//@return: err error, userInter model.User
-
 type UserService struct{}
 
 var redisService = redisClient.RedisService{}
